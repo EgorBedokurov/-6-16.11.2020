@@ -11,11 +11,8 @@ def countdown(m_f):
 @countdown
 def what_time():
     print('What time is now?')
-    time.sleep(1)
-    print(3)
-    time.sleep(1)
-    print(2)
-    time.sleep(1)
-    print(1)
+    for i in range(3,0,-1):
+        time.sleep(1)
+        print(i)
 
 what_time()
